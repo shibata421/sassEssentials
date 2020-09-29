@@ -323,6 +323,40 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Bree Serif", Helvetica, sans-serif;
   color: #D14348; }
 
+.background {
+  color: #EEE8D6;
+  margin: 20px 0;
+  width: 100%;
+  display: table; }
+  .background .container {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 20px; }
+    .background .container h1 {
+      color: #FFBA00;
+      font-family: "Merriweather", Helvetica, sans-serif;
+      font-size: 5rem;
+      line-height: 105%;
+      margin-bottom: 0;
+      padding: 0 10%; }
+    .background .container p {
+      padding: 0 10%;
+      margin-top: 0; }
+
+.jumbotron {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../images/water.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
+.bridge {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../images/bridge.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 300px; }
+
 .media {
   margin: 0;
   padding: 0;
@@ -346,3 +380,6 @@ h1, h2, h3, h4, h5, h6 {
   .media a {
     text-decoration: none;
     color: #022933; }
+
+.jumbotron {
+  background-color: #022933; }
