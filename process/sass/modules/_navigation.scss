@@ -54,5 +54,9 @@ nav {
         margin-top: 20px;
         min-height: 200px;
         background-color: darken($color: $blue, $amount: 15%);
+
+        @include break(0, 700px) {
+            display: none;
+        }
     }
 }
